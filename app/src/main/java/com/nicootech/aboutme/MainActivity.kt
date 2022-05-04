@@ -11,38 +11,29 @@ import com.nicootech.aboutme.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding :ActivityMainBinding
+    private val myName: MyName = MyName("Ethan Cohen")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setContentView(R.layout.activity_main)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-//        findViewById<Button>(R.id.done_button).setOnClickListener {
-//            addNickname(it)
-//        }
+
+        binding.myName = myName
+
         binding.doneButton.setOnClickListener {
             addNickname(it)
         }
     }
 
     private fun addNickname(view: View) {
-//        val nicknameEditText = findViewById<EditText>(R.id.nickname_editText)
-//        val nicknameTextView = findViewById<TextView>(R.id.nickname_textView)
-
-//        nicknameTextView.text = nicknameEditText.text
-//        //edit text will be hidden
-//        nicknameEditText.visibility = View.GONE
-//        //button will be hidden
-//        view.visibility = View.GONE
-//        nicknameTextView.visibility = View.VISIBLE
         binding.apply {
-            nicknameTextView.text = binding.nicknameEditText.text
+            //nicknameTextView.text = binding.nicknameEditText.text
+            myName?.nickname = nicknameEditText.text.toString()
             invalidateAll()
             nicknameEditText.visibility = View.GONE
             doneButton.visibility = View.GONE
-            nicknameEditText.visibility = View.VISIBLE
+            nicknameTextView.visibility = View.VISIBLE
             bioScroll.visibility = View.VISIBLE
         }
-
 
         // Hide the keyboard.
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
