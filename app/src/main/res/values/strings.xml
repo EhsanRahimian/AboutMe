@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">About me</string>
+    <string name="name">Ethan Cohen</string>
+    <string name="yellow_star">yellow star</string>
+    <string name="bio">
+\nEthan Cohen
+\n\n\Santa Monica CA. 12345 ethan@gmail.com (444)333-1111 LinkedIn
+\nCAREER OBJECTIVE
+Highly motivated Software Engineer with extensive experience in the development of  Android applications looking for new challenges.
+\n\nWORK EXPERIENCE
+\nAndroid Engineer at TripAdvisor, Liquid (FinTech) Palo Alto, CA - Oct 2020 to Present
+\nMainly developing on the Android team, integrating clean architecture principles. Also transitioning the app design to MVP new design, working closely with designers as well to optimize UI/UX performance. Working on two different projects for the international businesses traveling expense management. The project is fully Kotlin.
+\nSoftware Engineer at Toyota Electric, Remote, Tokyo, Japan - May  2019 to Sep 2020               \nWorked within the SDK team and developed the products implemented by the SDK team. This operation included a wide range of technologies requiring knowledge of SQL Server, and Web APIs, both locally and in Azure. Additionally, I was responsible for creating user-ready documentation and training materials for various aspects of the SDK Suite of offerings, including training curriculum, and template structures.
+\nAndroid Developer LeetCode, Los Angeles, CA - Oct 2015 to Apr 2019                                               As an Android developer worked with a group of talented engineers. The project was cashback program for retail fashion. Debugged and modified the Android components in java language. The project included Maps, Geofencing trigger, Messaging, and Rating system.
+\n\nTECH SKILLS
+\nAndroid, Java, Kotlin, C++, Data structure, RESTful APIs, MySQL, Clean Architecture, Jira, Google analytics, Amplitude, Android studio, IntelliJ, Git, Dagger, MVVM, MVI, MVC, BLE, Figma, Animation.
+\n\nFREELANCE PROJECT
+\nVideo Chat: Android app using Material design for UI and one of agora.io Apis for one-to-one video chatting.
+\nBlue Notes: Android app designed to write daily notes. Used MVVM, Java, etc.
+\nCommunity Problem Reporter: Designed this Android app to help people report community issues quickly to the messaging app on their phones.
+\n\nEDUCATION
+\nM.S. and B.S. degree ABC University Art and Mathematics.
+\nCertification of Engineering UCLA, Android App Components.
+        \n\n
+</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done!</string>
+</resources>
